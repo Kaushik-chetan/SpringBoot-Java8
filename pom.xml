@@ -4,6 +4,11 @@
   <artifactId>SpringBoot-Java8</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+ <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>	
+	
   <parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
