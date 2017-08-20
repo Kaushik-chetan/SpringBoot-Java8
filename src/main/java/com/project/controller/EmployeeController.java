@@ -24,6 +24,7 @@ public class EmployeeController {
 	@Autowired
 	private EmployeeService employeeService;
 	
+	//Get Method to fetch Employee baed upon criteria
 	@RequestMapping(value = "/employees", method = RequestMethod.GET, produces = {MediaType.APPLICATION_XML_VALUE ,MediaType.APPLICATION_JSON_VALUE})
 	@ResponseStatus(HttpStatus.OK)
 	public List<Employee> getEmployeeByCriteria(@RequestParam("city") String city, @RequestParam("salary") Long salary, @RequestParam("designation") String designation)
