@@ -13,7 +13,7 @@ import com.project.model.Employee;
 public class EmployeeService {
 	
 	
-    List<Employee> employeeList = new ArrayList<Employee>();
+    List<Employee> employeeList = new ArrayList<>();
 	
 	public EmployeeService()
 	{
